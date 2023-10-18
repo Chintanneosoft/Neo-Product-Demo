@@ -9,14 +9,34 @@
 /* Begin PBXBuildFile section */
 		92D50B202ADFAE0A00E1AE48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D50B1F2ADFAE0A00E1AE48 /* AppDelegate.swift */; };
 		92D50B222ADFAE0A00E1AE48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D50B212ADFAE0A00E1AE48 /* SceneDelegate.swift */; };
-		92D50B242ADFAE0A00E1AE48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D50B232ADFAE0A00E1AE48 /* ViewController.swift */; };
-		92D50B272ADFAE0A00E1AE48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92D50B252ADFAE0A00E1AE48 /* Main.storyboard */; };
 		92D50B2A2ADFAE0A00E1AE48 /* Neo_Product_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92D50B282ADFAE0A00E1AE48 /* Neo_Product_Demo.xcdatamodeld */; };
 		92D50B2C2ADFAE0C00E1AE48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92D50B2B2ADFAE0C00E1AE48 /* Assets.xcassets */; };
 		92D50B2F2ADFAE0C00E1AE48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92D50B2D2ADFAE0C00E1AE48 /* LaunchScreen.storyboard */; };
 		92D50B3A2ADFAE0D00E1AE48 /* Neo_Product_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D50B392ADFAE0D00E1AE48 /* Neo_Product_DemoTests.swift */; };
 		92D50B442ADFAE0D00E1AE48 /* Neo_Product_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D50B432ADFAE0D00E1AE48 /* Neo_Product_DemoUITests.swift */; };
 		92D50B462ADFAE0D00E1AE48 /* Neo_Product_DemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D50B452ADFAE0D00E1AE48 /* Neo_Product_DemoUITestsLaunchTests.swift */; };
+		92D50B5E2ADFB08400E1AE48 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D50B5C2ADFB08400E1AE48 /* ProductListViewController.swift */; };
+		92D50B5F2ADFB08400E1AE48 /* ProductListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92D50B5D2ADFB08400E1AE48 /* ProductListViewController.xib */; };
+		92D50B612ADFB0B200E1AE48 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D50B602ADFB0B200E1AE48 /* Constants.swift */; };
+		92D50B652ADFB1D200E1AE48 /* ProductListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D50B632ADFB1D200E1AE48 /* ProductListCell.swift */; };
+		92D50B662ADFB1D200E1AE48 /* ProductListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92D50B642ADFB1D200E1AE48 /* ProductListCell.xib */; };
+		92D50B682ADFB73300E1AE48 /* ProductListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D50B672ADFB73300E1AE48 /* ProductListViewModel.swift */; };
+		92D50B6A2ADFB74600E1AE48 /* ProductDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D50B692ADFB74600E1AE48 /* ProductDetailsViewModel.swift */; };
+		92D50B6C2ADFB77100E1AE48 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D50B6B2ADFB77100E1AE48 /* APIManager.swift */; };
+		92D50B6E2ADFB79D00E1AE48 /* APIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D50B6D2ADFB79D00E1AE48 /* APIServices.swift */; };
+		92D50B702ADFB8CD00E1AE48 /* ProductListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D50B6F2ADFB8CD00E1AE48 /* ProductListModel.swift */; };
+		92D50B732ADFBC0200E1AE48 /* ProductListAPIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D50B722ADFBC0200E1AE48 /* ProductListAPIServices.swift */; };
+		92D50B752ADFBFAC00E1AE48 /* Common Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D50B742ADFBFAC00E1AE48 /* Common Functions.swift */; };
+		92D50B782ADFD22700E1AE48 /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D50B762ADFD22700E1AE48 /* ProductDetailsViewController.swift */; };
+		92D50B792ADFD22700E1AE48 /* ProductDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92D50B772ADFD22700E1AE48 /* ProductDetailsViewController.xib */; };
+		92D50B7B2ADFD28100E1AE48 /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D50B7A2ADFD28100E1AE48 /* DataBaseManager.swift */; };
+		92D50B812ADFDA2100E1AE48 /* ProductImgCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D50B7F2ADFDA2100E1AE48 /* ProductImgCell.swift */; };
+		92D50B822ADFDA2100E1AE48 /* ProductImgCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92D50B802ADFDA2100E1AE48 /* ProductImgCell.xib */; };
+		92D50B842ADFDBAC00E1AE48 /* ProductDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D50B832ADFDBAC00E1AE48 /* ProductDetailsModel.swift */; };
+		92D50B862ADFDC4400E1AE48 /* ProductDetailsAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D50B852ADFDC4400E1AE48 /* ProductDetailsAPIService.swift */; };
+		C582C5C64E1222275D36EAB1 /* Pods_Neo_Product_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93078AA66520D92073CEC11E /* Pods_Neo_Product_DemoTests.framework */; };
+		EDFC172E0F9C585D5EE76B7E /* Pods_Neo_Product_Demo_Neo_Product_DemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AA76689E1B10A89DB0CC34 /* Pods_Neo_Product_Demo_Neo_Product_DemoUITests.framework */; };
+		F23D56F0E9A1756ED0055AE0 /* Pods_Neo_Product_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7A59E38E0A7F0B94056B2E /* Pods_Neo_Product_Demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +57,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B0BF6E90E85AF3381CA38E1 /* Pods-Neo Product Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neo Product Demo.debug.xcconfig"; path = "Target Support Files/Pods-Neo Product Demo/Pods-Neo Product Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		0C02879739AC18DB8E1941D8 /* Pods-Neo Product Demo-Neo Product DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neo Product Demo-Neo Product DemoUITests.release.xcconfig"; path = "Target Support Files/Pods-Neo Product Demo-Neo Product DemoUITests/Pods-Neo Product Demo-Neo Product DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2F93A980D06791C641B39DE8 /* Pods-Neo Product Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neo Product Demo.release.xcconfig"; path = "Target Support Files/Pods-Neo Product Demo/Pods-Neo Product Demo.release.xcconfig"; sourceTree = "<group>"; };
 		92D50B1C2ADFAE0A00E1AE48 /* Neo Product Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neo Product Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92D50B1F2ADFAE0A00E1AE48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92D50B212ADFAE0A00E1AE48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		92D50B232ADFAE0A00E1AE48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		92D50B262ADFAE0A00E1AE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92D50B292ADFAE0A00E1AE48 /* Neo_Product_Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Neo_Product_Demo.xcdatamodel; sourceTree = "<group>"; };
 		92D50B2B2ADFAE0C00E1AE48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92D50B2E2ADFAE0C00E1AE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +72,31 @@
 		92D50B3F2ADFAE0D00E1AE48 /* Neo Product DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Neo Product DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92D50B432ADFAE0D00E1AE48 /* Neo_Product_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neo_Product_DemoUITests.swift; sourceTree = "<group>"; };
 		92D50B452ADFAE0D00E1AE48 /* Neo_Product_DemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neo_Product_DemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		92D50B5C2ADFB08400E1AE48 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		92D50B5D2ADFB08400E1AE48 /* ProductListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductListViewController.xib; sourceTree = "<group>"; };
+		92D50B602ADFB0B200E1AE48 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		92D50B632ADFB1D200E1AE48 /* ProductListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListCell.swift; sourceTree = "<group>"; };
+		92D50B642ADFB1D200E1AE48 /* ProductListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductListCell.xib; sourceTree = "<group>"; };
+		92D50B672ADFB73300E1AE48 /* ProductListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewModel.swift; sourceTree = "<group>"; };
+		92D50B692ADFB74600E1AE48 /* ProductDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewModel.swift; sourceTree = "<group>"; };
+		92D50B6B2ADFB77100E1AE48 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		92D50B6D2ADFB79D00E1AE48 /* APIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServices.swift; sourceTree = "<group>"; };
+		92D50B6F2ADFB8CD00E1AE48 /* ProductListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListModel.swift; sourceTree = "<group>"; };
+		92D50B722ADFBC0200E1AE48 /* ProductListAPIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListAPIServices.swift; sourceTree = "<group>"; };
+		92D50B742ADFBFAC00E1AE48 /* Common Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Common Functions.swift"; sourceTree = "<group>"; };
+		92D50B762ADFD22700E1AE48 /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
+		92D50B772ADFD22700E1AE48 /* ProductDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductDetailsViewController.xib; sourceTree = "<group>"; };
+		92D50B7A2ADFD28100E1AE48 /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
+		92D50B7F2ADFDA2100E1AE48 /* ProductImgCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductImgCell.swift; sourceTree = "<group>"; };
+		92D50B802ADFDA2100E1AE48 /* ProductImgCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductImgCell.xib; sourceTree = "<group>"; };
+		92D50B832ADFDBAC00E1AE48 /* ProductDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsModel.swift; sourceTree = "<group>"; };
+		92D50B852ADFDC4400E1AE48 /* ProductDetailsAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsAPIService.swift; sourceTree = "<group>"; };
+		93078AA66520D92073CEC11E /* Pods_Neo_Product_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Neo_Product_DemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96AA76689E1B10A89DB0CC34 /* Pods_Neo_Product_Demo_Neo_Product_DemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Neo_Product_Demo_Neo_Product_DemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12C55A45DC09C0E36CF38B5 /* Pods-Neo Product DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neo Product DemoTests.debug.xcconfig"; path = "Target Support Files/Pods-Neo Product DemoTests/Pods-Neo Product DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE065DFF1BD62A7BEC1B81A7 /* Pods-Neo Product DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neo Product DemoTests.release.xcconfig"; path = "Target Support Files/Pods-Neo Product DemoTests/Pods-Neo Product DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		CF7A59E38E0A7F0B94056B2E /* Pods_Neo_Product_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Neo_Product_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFA79E8F7B8FE1771B0A9F91 /* Pods-Neo Product Demo-Neo Product DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neo Product Demo-Neo Product DemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Neo Product Demo-Neo Product DemoUITests/Pods-Neo Product Demo-Neo Product DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F23D56F0E9A1756ED0055AE0 /* Pods_Neo_Product_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C582C5C64E1222275D36EAB1 /* Pods_Neo_Product_DemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDFC172E0F9C585D5EE76B7E /* Pods_Neo_Product_Demo_Neo_Product_DemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +134,8 @@
 				92D50B382ADFAE0D00E1AE48 /* Neo Product DemoTests */,
 				92D50B422ADFAE0D00E1AE48 /* Neo Product DemoUITests */,
 				92D50B1D2ADFAE0A00E1AE48 /* Products */,
+				FFC995BB9891D1629DA71575 /* Pods */,
+				93F8CAA706A2ECE6096C3A26 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +152,14 @@
 		92D50B1E2ADFAE0A00E1AE48 /* Neo Product Demo */ = {
 			isa = PBXGroup;
 			children = (
-				92D50B1F2ADFAE0A00E1AE48 /* AppDelegate.swift */,
-				92D50B212ADFAE0A00E1AE48 /* SceneDelegate.swift */,
-				92D50B232ADFAE0A00E1AE48 /* ViewController.swift */,
-				92D50B252ADFAE0A00E1AE48 /* Main.storyboard */,
-				92D50B2B2ADFAE0C00E1AE48 /* Assets.xcassets */,
-				92D50B2D2ADFAE0C00E1AE48 /* LaunchScreen.storyboard */,
+				92D50B592ADFAEFC00E1AE48 /* DataBase Manager */,
+				92D50B582ADFAED300E1AE48 /* Web Services */,
+				92D50B562ADFAE6400E1AE48 /* Utilities */,
+				92D50B552ADFAE5C00E1AE48 /* Application */,
+				92D50B542ADFAE4100E1AE48 /* View Model */,
+				92D50B532ADFAE3C00E1AE48 /* Model */,
+				92D50B522ADFAE3400E1AE48 /* View */,
 				92D50B302ADFAE0C00E1AE48 /* Info.plist */,
-				92D50B282ADFAE0A00E1AE48 /* Neo_Product_Demo.xcdatamodeld */,
 			);
 			path = "Neo Product Demo";
 			sourceTree = "<group>";
@@ -130,6 +181,142 @@
 			path = "Neo Product DemoUITests";
 			sourceTree = "<group>";
 		};
+		92D50B522ADFAE3400E1AE48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92D50B5B2ADFAF5900E1AE48 /* Product Details */,
+				92D50B5A2ADFAF3600E1AE48 /* Product List */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92D50B532ADFAE3C00E1AE48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92D50B6F2ADFB8CD00E1AE48 /* ProductListModel.swift */,
+				92D50B832ADFDBAC00E1AE48 /* ProductDetailsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92D50B542ADFAE4100E1AE48 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				92D50B672ADFB73300E1AE48 /* ProductListViewModel.swift */,
+				92D50B692ADFB74600E1AE48 /* ProductDetailsViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		92D50B552ADFAE5C00E1AE48 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				92D50B2D2ADFAE0C00E1AE48 /* LaunchScreen.storyboard */,
+				92D50B2B2ADFAE0C00E1AE48 /* Assets.xcassets */,
+				92D50B212ADFAE0A00E1AE48 /* SceneDelegate.swift */,
+				92D50B1F2ADFAE0A00E1AE48 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		92D50B562ADFAE6400E1AE48 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				92D50B602ADFB0B200E1AE48 /* Constants.swift */,
+				92D50B742ADFBFAC00E1AE48 /* Common Functions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		92D50B582ADFAED300E1AE48 /* Web Services */ = {
+			isa = PBXGroup;
+			children = (
+				92D50B712ADFBBD800E1AE48 /* Services */,
+				92D50B6B2ADFB77100E1AE48 /* APIManager.swift */,
+				92D50B6D2ADFB79D00E1AE48 /* APIServices.swift */,
+			);
+			path = "Web Services";
+			sourceTree = "<group>";
+		};
+		92D50B592ADFAEFC00E1AE48 /* DataBase Manager */ = {
+			isa = PBXGroup;
+			children = (
+				92D50B282ADFAE0A00E1AE48 /* Neo_Product_Demo.xcdatamodeld */,
+				92D50B7A2ADFD28100E1AE48 /* DataBaseManager.swift */,
+			);
+			path = "DataBase Manager";
+			sourceTree = "<group>";
+		};
+		92D50B5A2ADFAF3600E1AE48 /* Product List */ = {
+			isa = PBXGroup;
+			children = (
+				92D50B622ADFB1A000E1AE48 /* Cells */,
+				92D50B5C2ADFB08400E1AE48 /* ProductListViewController.swift */,
+				92D50B5D2ADFB08400E1AE48 /* ProductListViewController.xib */,
+			);
+			path = "Product List";
+			sourceTree = "<group>";
+		};
+		92D50B5B2ADFAF5900E1AE48 /* Product Details */ = {
+			isa = PBXGroup;
+			children = (
+				92D50B7C2ADFD9E100E1AE48 /* Cells */,
+				92D50B762ADFD22700E1AE48 /* ProductDetailsViewController.swift */,
+				92D50B772ADFD22700E1AE48 /* ProductDetailsViewController.xib */,
+			);
+			path = "Product Details";
+			sourceTree = "<group>";
+		};
+		92D50B622ADFB1A000E1AE48 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				92D50B632ADFB1D200E1AE48 /* ProductListCell.swift */,
+				92D50B642ADFB1D200E1AE48 /* ProductListCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		92D50B712ADFBBD800E1AE48 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				92D50B722ADFBC0200E1AE48 /* ProductListAPIServices.swift */,
+				92D50B852ADFDC4400E1AE48 /* ProductDetailsAPIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		92D50B7C2ADFD9E100E1AE48 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				92D50B7F2ADFDA2100E1AE48 /* ProductImgCell.swift */,
+				92D50B802ADFDA2100E1AE48 /* ProductImgCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		93F8CAA706A2ECE6096C3A26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF7A59E38E0A7F0B94056B2E /* Pods_Neo_Product_Demo.framework */,
+				96AA76689E1B10A89DB0CC34 /* Pods_Neo_Product_Demo_Neo_Product_DemoUITests.framework */,
+				93078AA66520D92073CEC11E /* Pods_Neo_Product_DemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFC995BB9891D1629DA71575 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B0BF6E90E85AF3381CA38E1 /* Pods-Neo Product Demo.debug.xcconfig */,
+				2F93A980D06791C641B39DE8 /* Pods-Neo Product Demo.release.xcconfig */,
+				DFA79E8F7B8FE1771B0A9F91 /* Pods-Neo Product Demo-Neo Product DemoUITests.debug.xcconfig */,
+				0C02879739AC18DB8E1941D8 /* Pods-Neo Product Demo-Neo Product DemoUITests.release.xcconfig */,
+				A12C55A45DC09C0E36CF38B5 /* Pods-Neo Product DemoTests.debug.xcconfig */,
+				AE065DFF1BD62A7BEC1B81A7 /* Pods-Neo Product DemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +324,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92D50B492ADFAE0D00E1AE48 /* Build configuration list for PBXNativeTarget "Neo Product Demo" */;
 			buildPhases = (
+				8A05DBF0155130FE98B422F6 /* [CP] Check Pods Manifest.lock */,
 				92D50B182ADFAE0A00E1AE48 /* Sources */,
 				92D50B192ADFAE0A00E1AE48 /* Frameworks */,
 				92D50B1A2ADFAE0A00E1AE48 /* Resources */,
+				436A208EB4D75D2CD3821A62 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +343,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92D50B4C2ADFAE0D00E1AE48 /* Build configuration list for PBXNativeTarget "Neo Product DemoTests" */;
 			buildPhases = (
+				C18585FF86AE38A74A353CA9 /* [CP] Check Pods Manifest.lock */,
 				92D50B312ADFAE0D00E1AE48 /* Sources */,
 				92D50B322ADFAE0D00E1AE48 /* Frameworks */,
 				92D50B332ADFAE0D00E1AE48 /* Resources */,
@@ -172,9 +362,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92D50B4F2ADFAE0D00E1AE48 /* Build configuration list for PBXNativeTarget "Neo Product DemoUITests" */;
 			buildPhases = (
+				C36619C5A14441C895DC0C8C /* [CP] Check Pods Manifest.lock */,
 				92D50B3B2ADFAE0D00E1AE48 /* Sources */,
 				92D50B3C2ADFAE0D00E1AE48 /* Frameworks */,
 				92D50B3D2ADFAE0D00E1AE48 /* Resources */,
+				C60726FC6358A7E7A9B0441A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,8 +427,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				92D50B2F2ADFAE0C00E1AE48 /* LaunchScreen.storyboard in Resources */,
+				92D50B662ADFB1D200E1AE48 /* ProductListCell.xib in Resources */,
+				92D50B792ADFD22700E1AE48 /* ProductDetailsViewController.xib in Resources */,
+				92D50B5F2ADFB08400E1AE48 /* ProductListViewController.xib in Resources */,
 				92D50B2C2ADFAE0C00E1AE48 /* Assets.xcassets in Resources */,
-				92D50B272ADFAE0A00E1AE48 /* Main.storyboard in Resources */,
+				92D50B822ADFDA2100E1AE48 /* ProductImgCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +451,132 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		436A208EB4D75D2CD3821A62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Neo Product Demo/Pods-Neo Product Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Neo Product Demo/Pods-Neo Product Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Neo Product Demo/Pods-Neo Product Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A05DBF0155130FE98B422F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Neo Product Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C18585FF86AE38A74A353CA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Neo Product DemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C36619C5A14441C895DC0C8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Neo Product Demo-Neo Product DemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C60726FC6358A7E7A9B0441A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Neo Product Demo-Neo Product DemoUITests/Pods-Neo Product Demo-Neo Product DemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Neo Product Demo-Neo Product DemoUITests/Pods-Neo Product Demo-Neo Product DemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Neo Product Demo-Neo Product DemoUITests/Pods-Neo Product Demo-Neo Product DemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		92D50B182ADFAE0A00E1AE48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92D50B242ADFAE0A00E1AE48 /* ViewController.swift in Sources */,
+				92D50B702ADFB8CD00E1AE48 /* ProductListModel.swift in Sources */,
+				92D50B842ADFDBAC00E1AE48 /* ProductDetailsModel.swift in Sources */,
+				92D50B612ADFB0B200E1AE48 /* Constants.swift in Sources */,
 				92D50B202ADFAE0A00E1AE48 /* AppDelegate.swift in Sources */,
 				92D50B222ADFAE0A00E1AE48 /* SceneDelegate.swift in Sources */,
+				92D50B7B2ADFD28100E1AE48 /* DataBaseManager.swift in Sources */,
+				92D50B6C2ADFB77100E1AE48 /* APIManager.swift in Sources */,
+				92D50B862ADFDC4400E1AE48 /* ProductDetailsAPIService.swift in Sources */,
+				92D50B732ADFBC0200E1AE48 /* ProductListAPIServices.swift in Sources */,
+				92D50B6E2ADFB79D00E1AE48 /* APIServices.swift in Sources */,
+				92D50B782ADFD22700E1AE48 /* ProductDetailsViewController.swift in Sources */,
+				92D50B6A2ADFB74600E1AE48 /* ProductDetailsViewModel.swift in Sources */,
+				92D50B682ADFB73300E1AE48 /* ProductListViewModel.swift in Sources */,
+				92D50B5E2ADFB08400E1AE48 /* ProductListViewController.swift in Sources */,
+				92D50B752ADFBFAC00E1AE48 /* Common Functions.swift in Sources */,
+				92D50B812ADFDA2100E1AE48 /* ProductImgCell.swift in Sources */,
 				92D50B2A2ADFAE0A00E1AE48 /* Neo_Product_Demo.xcdatamodeld in Sources */,
+				92D50B652ADFB1D200E1AE48 /* ProductListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +613,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		92D50B252ADFAE0A00E1AE48 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				92D50B262ADFAE0A00E1AE48 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		92D50B2D2ADFAE0C00E1AE48 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -436,6 +740,7 @@
 		};
 		92D50B4A2ADFAE0D00E1AE48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B0BF6E90E85AF3381CA38E1 /* Pods-Neo Product Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,7 +751,6 @@
 				INFOPLIST_FILE = "Neo Product Demo/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -464,6 +768,7 @@
 		};
 		92D50B4B2ADFAE0D00E1AE48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F93A980D06791C641B39DE8 /* Pods-Neo Product Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,7 +779,6 @@
 				INFOPLIST_FILE = "Neo Product Demo/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -492,6 +796,7 @@
 		};
 		92D50B4D2ADFAE0D00E1AE48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A12C55A45DC09C0E36CF38B5 /* Pods-Neo Product DemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +817,7 @@
 		};
 		92D50B4E2ADFAE0D00E1AE48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE065DFF1BD62A7BEC1B81A7 /* Pods-Neo Product DemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +838,7 @@
 		};
 		92D50B502ADFAE0D00E1AE48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFA79E8F7B8FE1771B0A9F91 /* Pods-Neo Product Demo-Neo Product DemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +857,7 @@
 		};
 		92D50B512ADFAE0D00E1AE48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C02879739AC18DB8E1941D8 /* Pods-Neo Product Demo-Neo Product DemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

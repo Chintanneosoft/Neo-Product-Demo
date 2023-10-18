@@ -1,0 +1,6 @@
+framework module Pods_Neo_Product_DemoTests {
+  umbrella header "Pods-Neo Product DemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

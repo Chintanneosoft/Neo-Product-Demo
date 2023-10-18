@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ProductImgCell" customModule="Neo_Product_Demo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="223" height="112"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="223" height="112"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oau-dW-gkE">
+                        <rect key="frame" x="0.0" y="0.0" width="223" height="112"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jO4-Bt-Mfs">
+                                <rect key="frame" x="20" y="10" width="183" height="92"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="jO4-Bt-Mfs" secondAttribute="trailing" constant="20" id="Nyl-YY-sBg"/>
+                            <constraint firstItem="jO4-Bt-Mfs" firstAttribute="top" secondItem="oau-dW-gkE" secondAttribute="top" constant="10" id="ksy-4D-3er"/>
+                            <constraint firstAttribute="bottom" secondItem="jO4-Bt-Mfs" secondAttribute="bottom" constant="10" id="oEo-F1-NoM"/>
+                            <constraint firstItem="jO4-Bt-Mfs" firstAttribute="leading" secondItem="oau-dW-gkE" secondAttribute="leading" constant="20" id="xXu-hT-vIY"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="oau-dW-gkE" secondAttribute="bottom" id="MEl-l8-J74"/>
+                <constraint firstItem="oau-dW-gkE" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Ska-gl-7WY"/>
+                <constraint firstItem="oau-dW-gkE" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="mnr-rY-eFH"/>
+                <constraint firstAttribute="trailing" secondItem="oau-dW-gkE" secondAttribute="trailing" id="qW6-OQ-PeQ"/>
+            </constraints>
+            <size key="customSize" width="223" height="112"/>
+            <connections>
+                <outlet property="productImg" destination="jO4-Bt-Mfs" id="EyW-gg-ITd"/>
+            </connections>
+            <point key="canvasLocation" x="107.63358778625954" y="40.845070422535215"/>
+        </collectionViewCell>
+    </objects>
+</document>

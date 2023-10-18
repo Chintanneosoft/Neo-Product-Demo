@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="112" id="KGk-i7-Jjw" customClass="ProductListCell" customModule="Neo_Product_Demo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="326" height="112"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="326" height="112"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wWx-jE-WSh">
+                        <rect key="frame" x="0.0" y="0.0" width="326" height="112"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sbl-AG-AGS">
+                                <rect key="frame" x="13" y="13" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="f6V-Bo-2zW"/>
+                                    <constraint firstAttribute="height" constant="80" id="mV2-nJ-fc4"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Product Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hb2-uY-1uO">
+                                <rect key="frame" x="103" y="20" width="98.333333333333314" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Producer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jBE-kF-h89">
+                                <rect key="frame" x="103" y="53" width="44" height="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Rs 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2b4-b3-JsY">
+                                <rect key="frame" x="103" y="73" width="39" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" systemColor="systemRedColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PBm-cQ-PHg">
+                                <rect key="frame" x="276" y="63" width="30" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="Uml-Yz-vfm"/>
+                                    <constraint firstAttribute="width" constant="30" id="aU9-la-bvI"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="">
+                                    <imageReference key="backgroundImage" image="heart" catalog="system" renderingMode="hierarchical">
+                                        <hierarchicalColors>
+                                            <color red="0.24574558020000001" green="0.26432883940000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color systemColor="secondaryLabelColor"/>
+                                            <color systemColor="tertiaryLabelColor"/>
+                                        </hierarchicalColors>
+                                    </imageReference>
+                                </state>
+                                <state key="selected">
+                                    <imageReference key="backgroundImage" image="heart.fill" catalog="system" renderingMode="hierarchical">
+                                        <hierarchicalColors>
+                                            <color red="0.24574558020000001" green="0.26432883940000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color systemColor="secondaryLabelColor"/>
+                                            <color systemColor="tertiaryLabelColor"/>
+                                        </hierarchicalColors>
+                                    </imageReference>
+                                </state>
+                                <connections>
+                                    <action selector="btnFavoriteTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="FiS-Ay-6TO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Hb2-uY-1uO" firstAttribute="leading" secondItem="sbl-AG-AGS" secondAttribute="trailing" constant="10" id="0rz-tN-7Zu"/>
+                            <constraint firstItem="jBE-kF-h89" firstAttribute="top" secondItem="Hb2-uY-1uO" secondAttribute="bottom" constant="4" id="1zH-Nf-Wrb"/>
+                            <constraint firstItem="2b4-b3-JsY" firstAttribute="top" secondItem="jBE-kF-h89" secondAttribute="bottom" constant="8" id="6Dh-zK-1cr"/>
+                            <constraint firstItem="jBE-kF-h89" firstAttribute="leading" secondItem="sbl-AG-AGS" secondAttribute="trailing" constant="10" id="9PN-iy-cwb"/>
+                            <constraint firstItem="Hb2-uY-1uO" firstAttribute="top" secondItem="wWx-jE-WSh" secondAttribute="top" constant="20" id="Frq-W6-eJQ"/>
+                            <constraint firstItem="sbl-AG-AGS" firstAttribute="leading" secondItem="wWx-jE-WSh" secondAttribute="leading" constant="13" id="RCZ-9X-zha"/>
+                            <constraint firstAttribute="trailing" secondItem="PBm-cQ-PHg" secondAttribute="trailing" constant="20" id="SSH-IO-orH"/>
+                            <constraint firstItem="PBm-cQ-PHg" firstAttribute="centerY" secondItem="2b4-b3-JsY" secondAttribute="centerY" constant="-10" id="iGb-5I-Mlp"/>
+                            <constraint firstItem="2b4-b3-JsY" firstAttribute="leading" secondItem="sbl-AG-AGS" secondAttribute="trailing" constant="10" id="im2-il-MOI"/>
+                            <constraint firstItem="sbl-AG-AGS" firstAttribute="top" secondItem="wWx-jE-WSh" secondAttribute="top" constant="13" id="uDv-sj-X6h"/>
+                            <constraint firstAttribute="bottom" secondItem="2b4-b3-JsY" secondAttribute="bottom" constant="15" id="xF0-Dy-zyn"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="wWx-jE-WSh" secondAttribute="bottom" id="XG3-W5-EFl"/>
+                    <constraint firstItem="wWx-jE-WSh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ZJQ-0P-JNF"/>
+                    <constraint firstAttribute="trailing" secondItem="wWx-jE-WSh" secondAttribute="trailing" id="eJ6-mf-bl4"/>
+                    <constraint firstItem="wWx-jE-WSh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="wjQ-CF-Hed"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnFavorite" destination="PBm-cQ-PHg" id="UIr-WI-uHI"/>
+                <outlet property="imgProduct" destination="sbl-AG-AGS" id="2ei-0W-uuu"/>
+                <outlet property="lblPrice" destination="2b4-b3-JsY" id="I2G-e2-aWY"/>
+                <outlet property="lblProducerName" destination="jBE-kF-h89" id="9G3-W3-Qyf"/>
+                <outlet property="lblProductName" destination="Hb2-uY-1uO" id="6ir-b5-73j"/>
+            </connections>
+            <point key="canvasLocation" x="-19.847328244274809" y="72.535211267605632"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="heart" catalog="system" width="128" height="107"/>
+        <image name="heart.fill" catalog="system" width="128" height="107"/>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29803921568627451" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
